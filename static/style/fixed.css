@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+
+.fireworks {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -9 !important;
+}
+
+.portfolio_area,
+.portfolio_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio_area {
+  flex-direction: column;
+}
+
+.portfolio_wrap {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.single_gallery {
+    width: 100% !important;
+}
